@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Header.css';
+import Navbar from './Navbar';
 
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
+    return (
+        <header>
+            <h1>Karen Adkins</h1>
+            <h2>Developer</h2>
+            <Navbar />
+
+        </header>
+    )
 }
 
-export default Header
+export default Header;

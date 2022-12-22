@@ -4,7 +4,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 
 
@@ -19,11 +19,15 @@ function App() {
     } else {
       return <Portfolio/>
     }
-  }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="App">
-      <Navbar setCurrentPage={setCurrentPage}/>
-      <Header/>
+      <Header setCurrentPage={setCurrentPage} handlePageChange={handlePageChange} />
+      {/* <Navbar setCurrentPage={setCurrentPage}/> */}
+      
       {showPage()}
       <Footer/>
     </div>
