@@ -1,14 +1,12 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import { handlePageChange } from '../App'
-// import Contact from '../pages/Contact';
 
 
 //get this to link to diff components with onclick()
-const Navbar = ({ currentPage, handlePageChange}) =>  {
+function Navbar({ currentPage, handlePageChange }) {
     return (
         
-            <ul className='nav-links'>
+            <ul className='nav nav-links'>
                 <li className='nav-item'>
                     <a href='#home' onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}

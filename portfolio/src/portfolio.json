@@ -1,11 +1,11 @@
 [
     {
     "id": 1,
-    "name": "",
-    "image": "",
-    "github": "",
-    "deploy": "",
-    "topics": ""
+    "name": "PWA Text Editor",
+    "image": "../assets/PwaScreenshot.png",
+    "github": "https://github.com/KarenAdkins84/PwaTextEditor",
+    "deploy": "https://cryptic-plains-18429.herokuapp.com/",
+    "topics": "PWA, manifest.json, service-workers, webpack plugins"
 },
 {
     "id": 2,

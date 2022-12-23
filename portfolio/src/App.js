@@ -4,7 +4,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
 import Header from './components/Header';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 
 
@@ -14,7 +14,7 @@ function App() {
   const showPage = () => {
     if (currentPage === 'Home') {
       return <Home/>
-    } else if (currentPage === "Contact") {
+    } else if (currentPage === 'Contact') {
       return <Contact/>
     } else {
       return <Portfolio/>
@@ -25,13 +25,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header setCurrentPage={setCurrentPage} handlePageChange={handlePageChange} />
-      {/* <Navbar setCurrentPage={setCurrentPage}/> */}
-      
+      <Header/> 
+      <Navbar setCurrentPage={setCurrentPage} handlePageChange={handlePageChange} />
       {showPage()}
       <Footer/>
     </div>
   );
 }
+
 
 export default App;
