@@ -1,6 +1,7 @@
 import React from 'react';
 import portfolio from '../portfolio.json';
 import ProjectCards from '../components/Project';
+import '../styles/Portfolio.css';
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -10,8 +11,7 @@ const Portfolio = () => {
     return (
         <section className="container">
             <div className="project">
-                <h2 className="top-title">Bootcamp Portfolio</h2>
-                <hr></hr>
+                <h2 className="top-title">My Portfolio</h2>
             </div>
 
             <Wrapper id="card-data">
