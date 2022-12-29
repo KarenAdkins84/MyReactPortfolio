@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Navbar.css';
 
 
-//get this to link to diff components with onclick()
 function Navbar({ currentPage, handlePageChange }) {
     return (
         

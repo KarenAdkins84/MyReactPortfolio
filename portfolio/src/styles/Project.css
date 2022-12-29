@@ -1,7 +1,8 @@
 .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    border-radius: 10px;
 
 }

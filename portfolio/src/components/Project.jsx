@@ -22,6 +22,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../styles/Project.css';
 import { GoLogoGithub } from "react-icons/go";
+import { RxRocket } from "react-icons/rx";
 
 function ProjectCards(props) {
   return (
@@ -33,8 +34,8 @@ function ProjectCards(props) {
         <Card.Text>
           {props.topics}
         </Card.Text>
-        <Card.Link href={props.github}> <GoLogoGithub /> </Card.Link>
-        <Card.Link href={props.deploy}>Deployed</Card.Link>
+        <Card.Link href={props.github}> <GoLogoGithub size={70} /> </Card.Link>
+        <Card.Link href={props.deploy}> <RxRocket size={56} /> </Card.Link>
       </Card.Body>
     </Card>
     </div>
