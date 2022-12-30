@@ -9,18 +9,18 @@
 },
 {
     "id": 2,
-    "name": "",
+    "name": "ReGifter",
     "image": "",
-    "github": "",
-    "deploy": "",
+    "github": "https://github.com/KarenAdkins84/TheShop",
+    "deploy": "https://the-regifter.herokuapp.com/",
     "topics": ""
 },
 {
     "id": 3,
-    "name": "",
+    "name": "ChefRosetta",
     "image": "",
-    "github": "",
-    "deploy": "",
+    "github": "https://github.com/KarenAdkins84/Recipes-Translator",
+    "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
     "topics": ""
 },
 {
