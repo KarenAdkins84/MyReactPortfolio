@@ -4,7 +4,9 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer'>< FaStackOverflow size={70} /></div>
+    <div className='footer'>
+      < FaStackOverflow size={70} /> 
+      </div>
   )
 }
 
