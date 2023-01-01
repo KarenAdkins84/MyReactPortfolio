@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "PWA Text Editor",
-    "image": "../assets/PwaScreenshot.png",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmarqueeinsights.com%2Ftake-control-of-your-pwa-home-page-with-4-clicks%2F&psig=AOvVaw2tpfWK-xIguR_PQSEfaQla&ust=1672695121383000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCNj3r4epp_wCFQAAAAAdAAAAABAE",
     "github": "https://github.com/KarenAdkins84/PwaTextEditor",
     "deploy": "https://cryptic-plains-18429.herokuapp.com/",
     "topics": "PWA, manifest.json, service-workers, webpack plugins"
