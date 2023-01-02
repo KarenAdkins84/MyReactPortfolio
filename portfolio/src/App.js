@@ -25,8 +25,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header/> 
-      <Navbar setCurrentPage={setCurrentPage} handlePageChange={handlePageChange} />
+      <Header />
+      <Navbar setCurrentPage={setCurrentPage} handlePageChange={handlePageChange} /> 
       {showPage()}
       <Footer/>
     </div>

@@ -1,0 +1,8 @@
+.contact {
+    font-family: cursive;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

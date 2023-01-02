@@ -1,4 +1,10 @@
 .bio {
     font-family: cursive;
     font-size: large;
+    padding: 20px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
 }

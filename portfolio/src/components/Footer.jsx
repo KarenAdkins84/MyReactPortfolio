@@ -1,12 +1,21 @@
 import React from 'react';
 import { FaStackOverflow } from "react-icons/fa";
 import '../styles/Footer.css';
+import { GoMarkGithub } from "react-icons/go";
+import { SiLinkedin } from "react-icons/si";
+
 
 const Footer = () => {
   return (
     <div className='footer'>
-      <a href="https://www.google.com/search?q=new+year&rlz=1C1ONGR_enUS1015US1015&oq=new+year&aqs=chrome..69i57j0i67i131i433j0i131i433i512l2j0i131i433j0i10i131i433j0i131i433l4.2442j1j15&sourceid=chrome&ie=UTF-8">
+      <a href="https://stackoverflow.com/users/19620945/karen-adkins">
       < FaStackOverflow size={70} /> 
+      </a>
+      <a href='https://github.com/KarenAdkins84'>
+      < GoMarkGithub size={70} />
+      </a>
+      <a href='https://www.linkedin.com/in/karen-adkins-26a825246/'>
+      < SiLinkedin size={70} />
       </a>
       
       </div>
