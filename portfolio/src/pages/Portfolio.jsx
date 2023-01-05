@@ -2,7 +2,11 @@ import React from 'react';
 // import portfolio from '../portfolio.json';
 import ProjectCards from '../components/Project';
 import '../styles/Portfolio.css';
-import PWAImage from '../assets/images/PwaScreenshot.png'
+import PWAImage from '../assets/images/PwaScreenshot.png';
+import Regifter from '../assets/images/regifter.png';
+import ChefRosetta from '../assets/images/chefRosetta.png';
+
+
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
 }
@@ -18,18 +22,18 @@ const portfolio=[
 {
     "id": 2,
     "name": "ReGifter",
-    "image": "",
+    "image": Regifter,
     "github": "https://github.com/KarenAdkins84/TheShop",
     "deploy": "https://the-regifter.herokuapp.com/",
-    "topics": ""
+    "topics": "collaborative coding, Express, Node, MySQL, Sequelize, Heroku"
 },
 {
     "id": 3,
     "name": "ChefRosetta",
-    "image": "",
+    "image": ChefRosetta,
     "github": "https://github.com/KarenAdkins84/Recipes-Translator",
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
-    "topics": ""
+    "topics": "collaborative coding, fetch API calls"
 },
 {
     "id": 4,

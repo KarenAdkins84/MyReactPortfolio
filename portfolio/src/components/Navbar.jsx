@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
-        
+        <div className='navbar'>
             <ul className='nav nav-links'>
                 <li className='nav-item'>
                     <a href='#home' onClick={() => handlePageChange('Home')}
@@ -22,6 +22,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     >Portfolio</a>
                 </li>
             </ul>
+        </div>
         
     );
 }

@@ -14,8 +14,8 @@ const Contact = () => {
             <input  type="email" id="emailAddressInput" className='form-control' placeholder="name@example.com" required/>
             </div>
             <div className="form-group">
-            <label htmlFor="textInput">Message: </label>
-            <textarea id="textInput" rows='4' required ></textarea>
+            <label htmlFor="textInput">Text: </label>
+            <textarea id="textInput" rows='4' placeholder='Type message here' required ></textarea>
             </div>
             <div className='button'>
             <button>Submit</button>

@@ -1,14 +1,16 @@
 import React from 'react';
 import '../styles/Home.css';
 
+
 const Home = () => {
   return (
     <div className='about'>
-      <section className='heading'>
-        <h2 className='title'>About Me</h2>
-        {/* <image '' />     */}
+      <section className='photo'>
+        <img src='../assets/images/bio.jpg' alt='author' />
       </section>
-      <p className='bio'>
+      <section className='info'>
+        <h2 className='title'>About Me</h2>
+        <p className='bio'>
             Hello, my name is Karen Adkins and I am a Full Stack Software Developer. 
         I will be completing Vanderbilt University Coding Bootcamp in January of 2023.
         In bootcamp I have learned the fundamentals of HTML, CSS, GIT, Javascript, Web APIs, Third-party APIs, 
@@ -21,7 +23,8 @@ const Home = () => {
         who just recently celebrated his 4th birthday, so when I am not working or coding, 
         you can usually find me playing with dinosaurs, HotWheels, or Legos!
 
-      </p>
+        </p>
+      </section>
     </div>
   )
 }

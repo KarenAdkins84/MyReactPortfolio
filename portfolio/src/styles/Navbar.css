@@ -1,8 +1,13 @@
 .nav-links {
-    display: flex;
-    justify-content: space-around;
     list-style-type: none;
     font-family: cursive;
     font-size: large;
+    display: flex;
     
+}
+.navbar {
+    background-color: #78c0e0;
+    display: flex;
+    justify-content: right;
+
 }
