@@ -4,9 +4,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: cursive;
+    background-color: #78c0e0;
 }
 div.card {
-    border: gray solid 3px;
+    border: #0e0e52 solid 3px;
     border-radius: 20px;
     font-family: cursive;
     text-align: center;
@@ -14,4 +15,10 @@ div.card {
 .top-title {
     font-family: cursive;
     text-align: center;
+}
+.project {
+    background-color: #78c0e0;
+    display: flex;
+    justify-content: center;
+    color: #0e0e52;
 }

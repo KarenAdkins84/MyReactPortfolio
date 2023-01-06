@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='about'>
       <section className='photo'>
-        <img src='../assets/images/bio.jpg' alt='author' />
+      <img className="profile-photo" src={require("../assets/images/bio.jpg")} style={{ width: 500, height: 600 }} alt={"Karen Adkins and son"}/>
       </section>
       <section className='info'>
         <h2 className='title'>About Me</h2>

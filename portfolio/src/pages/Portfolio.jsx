@@ -35,30 +35,30 @@ const portfolio=[
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
     "topics": "collaborative coding, fetch API calls"
 },
-{
-    "id": 4,
-    "name": "",
-    "image": "",
-    "github": "",
-    "deploy": "",
-    "topics": ""
-},
-{
-    "id": 5,
-    "name": "",
-    "image": "",
-    "github": "",
-    "deploy": "",
-    "topics": ""
-},
-{
-    "id": 6,
-    "name": "",
-    "image": "",
-    "github": "",
-    "deploy": "",
-    "topics": ""
-}
+// {
+//     "id": 4,
+//     "name": "",
+//     "image": "",
+//     "github": "",
+//     "deploy": "",
+//     "topics": ""
+// },
+// {
+//     "id": 5,
+//     "name": "",
+//     "image": "",
+//     "github": "",
+//     "deploy": "",
+//     "topics": ""
+// },
+// {
+//     "id": 6,
+//     "name": "",
+//     "image": "",
+//     "github": "",
+//     "deploy": "",
+//     "topics": ""
+// }
 ]
 
 
