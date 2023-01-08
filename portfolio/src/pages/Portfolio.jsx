@@ -33,7 +33,7 @@ const portfolio=[
     "image": ChefRosetta,
     "github": "https://github.com/KarenAdkins84/Recipes-Translator",
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
-    "topics": "collaborative coding, fetch API calls"
+    "topics": "Javascript, collaborative coding, server-side fetch API calls, "
 },
 // {
 //     "id": 4,
