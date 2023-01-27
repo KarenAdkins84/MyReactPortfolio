@@ -5,7 +5,7 @@ import '../styles/Portfolio.css';
 import PWAImage from '../assets/images/PwaScreenshot.png';
 import Regifter from '../assets/images/regifter.png';
 import ChefRosetta from '../assets/images/chefRosetta.png';
-
+import AthleteTracker from '../assets/images/AthleteTracker.png';
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -35,14 +35,14 @@ const portfolio=[
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
     "topics": "Javascript, collaborative coding, server-side fetch API calls, "
 },
-// {
-//     "id": 4,
-//     "name": "",
-//     "image": "",
-//     "github": "",
-//     "deploy": "",
-//     "topics": ""
-// },
+{
+    "id": 4,
+    "name": "AthleteTracker",
+    "image": AthleteTracker,
+    "github": "https://github.com/KarenAdkins84/Grand-Finale",
+    "deploy": "https://athletetracker.herokuapp.com/",
+    "topics": "Apollo GraphQL MERN full-stack application"
+},
 // {
 //     "id": 5,
 //     "name": "",
