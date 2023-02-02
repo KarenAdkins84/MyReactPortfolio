@@ -6,7 +6,9 @@
     
 }
 .navbar {
-    background-color: #78c0e0;
+    background-color: #0e0e52;
+    color: #78c0e0;
+    font-family: cursive;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }

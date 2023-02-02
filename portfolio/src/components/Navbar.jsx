@@ -5,6 +5,7 @@ import '../styles/Navbar.css';
 function Navbar({ currentPage, handlePageChange }) {
     return (
         <div className='navbar'>
+            <h1>Karen Adkins</h1>
             <ul className='nav nav-links'>
                 <li className='nav-item'>
                     <a href='#home' onClick={() => handlePageChange('Home')}
@@ -12,9 +13,9 @@ function Navbar({ currentPage, handlePageChange }) {
                     >About Me|</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='#contact' onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                    >Contact|</a>
+                    <a href='#TechSkills' onClick={() => handlePageChange('TechSkills')}
+                    className={currentPage === 'TechSkills' ? 'nav-link active' : 'nav-link'}
+                    >TechSkills|</a>
                 </li>
                 <li className='nav-item'>
                     <a href='#portfolio' onClick={() => handlePageChange('Portfolio')}
@@ -22,6 +23,9 @@ function Navbar({ currentPage, handlePageChange }) {
                     >Portfolio</a>
                 </li>
             </ul>
+            <h2>Full Stack Web Developer<br></br>
+                MERN-Certified
+            </h2>
         </div>
         
     );

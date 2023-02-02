@@ -11,10 +11,10 @@ const Home = () => {
       <section className='info'>
         <h2 className='title'>About Me</h2>
         <p className='bio'>
-            Hello, my name is Karen Adkins and I am a Full Stack Software Developer. 
-        I will be completing Vanderbilt University Coding Bootcamp in January of 2023.
+            Hello, my name is Karen Adkins and I am a MERN-certified Full Stack Software Developer. 
+        I completed Vanderbilt University Coding Bootcamp in January of 2023.
         In bootcamp I have learned the fundamentals of HTML, CSS, GIT, Javascript, Web APIs, Third-party APIs, 
-        Server-side APIs, MySQL, NoSQL, Sequelize, Mogoose, Progressive Web Apps(PWAs) and the MERN stack, which includes
+        Server-side APIs, MySQL, NoSQL, Sequelize, Mongoose, Progressive Web Apps(PWAs), Apollo Client/Server, GraphQL and the MERN stack, which includes
         MongoDB, Express, Node, and React. Please check out my projects featured in this portfolio to 
         see examples of my solo and collaborative works!<br></br>
             Originally from Michigan, I grew up and currently reside in middle Tennessee.
