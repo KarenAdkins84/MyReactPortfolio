@@ -13,11 +13,11 @@ function Wrapper(props) {
 const portfolio=[
     {
     "id": 1,
-    "name": "PWA Text Editor",
-    "image": PWAImage,//create data.js to replace port.json, import here
-    "github": "https://github.com/KarenAdkins84/PwaTextEditor",
-    "deploy": "https://cryptic-plains-18429.herokuapp.com/",
-    "topics": "PWA, manifest.json, service-workers, webpack plugins"
+    "name": "AthleteTracker",
+    "image": AthleteTracker,
+    "github": "https://github.com/KarenAdkins84/Grand-Finale",
+    "deploy": "https://athletetracker.herokuapp.com/",
+    "topics": "Apollo GraphQL MERN full-stack application"
 },
 {
     "id": 2,
@@ -37,11 +37,11 @@ const portfolio=[
 },
 {
     "id": 4,
-    "name": "AthleteTracker",
-    "image": AthleteTracker,
-    "github": "https://github.com/KarenAdkins84/Grand-Finale",
-    "deploy": "https://athletetracker.herokuapp.com/",
-    "topics": "Apollo GraphQL MERN full-stack application"
+    "name": "PWA Text Editor",
+    "image": PWAImage,
+    "github": "https://github.com/KarenAdkins84/PwaTextEditor",
+    "deploy": "https://cryptic-plains-18429.herokuapp.com/",
+    "topics": "PWA, manifest.json, service-workers, webpack plugins"
 },
 // {
 //     "id": 5,

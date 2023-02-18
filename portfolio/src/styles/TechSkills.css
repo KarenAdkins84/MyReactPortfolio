@@ -7,6 +7,13 @@
     background-color: #78c0e0;
     color: #0e0e52;
     width: 100vw;
-    height: 60vh;
+    height: 75vh;
 
+}
+ul {
+    list-style-type: none;
+}
+h1 {
+    display: flex;
+    justify-content: space-around;
 }
