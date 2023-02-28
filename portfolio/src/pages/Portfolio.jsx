@@ -17,7 +17,7 @@ const portfolio=[
     "image": AthleteTracker,
     "github": "https://github.com/KarenAdkins84/Grand-Finale",
     "deploy": "https://athletetracker.herokuapp.com/",
-    "topics": "Apollo GraphQL MERN full-stack application"
+    "topics": "A Mobile-first Apollo GraphQL MERN stack application"
 },
 {
     "id": 2,
@@ -25,7 +25,7 @@ const portfolio=[
     "image": Regifter,
     "github": "https://github.com/KarenAdkins84/TheShop",
     "deploy": "https://the-regifter.herokuapp.com/",
-    "topics": "collaborative coding, Express, Node, MySQL, Sequelize, Heroku"
+    "topics": "Express, Node, MySQL, Sequelize, Heroku, collaborative coding"
 },
 {
     "id": 3,
@@ -33,7 +33,7 @@ const portfolio=[
     "image": ChefRosetta,
     "github": "https://github.com/KarenAdkins84/Recipes-Translator",
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
-    "topics": "Javascript, collaborative coding, server-side fetch API calls, "
+    "topics": "JavaScript, collaborative coding, server-side fetch API calls, "
 },
 {
     "id": 4,

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 } */
 .bio {
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     padding: 20px;
 }
@@ -12,13 +12,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: cursive;
     background-color: #cdd6dd;
     min-height: 75vh;
 }
 .title {
     text-align: center;
     color: #0e0e52;
+    font-family: cursive, sans-serif;
     display: flex;
     justify-content: center;
 
@@ -30,20 +30,6 @@
     max-width: 30%;
     max-height: 30%;
 }
-
-/* @media screen and (max-width: 600px) {
-    .profile-photo {
-        width: 20%;
-        height: 20%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .profile-photo {
-        width: 20%;
-        height: 20%;
-    }
-} */
 
 @media screen and (max-width: 680px) {
     .about {

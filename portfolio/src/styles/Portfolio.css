@@ -1,15 +1,10 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 .wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #cdd6dd;
 }
 
@@ -21,7 +16,7 @@
 div.card {
     border: #0e0e52 solid 3px;
     border-radius: 20px;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 .top-title {
@@ -33,4 +28,5 @@ div.card {
     display: flex;
     justify-content: center;
     color: #0e0e52;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
