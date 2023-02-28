@@ -1,15 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 .nav-links {
     list-style-type: none;
     font-family: cursive;
     font-size: large;
+    text-decoration: none;
     display:flex;
-    color: #78c0e0;
-    
+    flex-direction: column;
+
 }
+
 .navbar {
-    background-color: #0e0e52;
-    color: #78c0e0;
+    background-color: #266DD3;
+    color: #3C3C3C;
     font-family: cursive;
     display: flex;
     justify-content: space-around;
+    padding: 15px;
+    border-bottom: 3px solid #3C3C3C;
+}
+
+h3 {
+    text-align: center;
 }

@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .footer {
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #0e0e52;
-    color: #78c0e0;
+    background-color: #266DD3;
     padding: 20px;
+    border-top: 3px solid #3C3C3C;
 }

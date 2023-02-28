@@ -1,11 +1,23 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 .wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: cursive;
-    background-color: #78c0e0;
+    background-color: #cdd6dd;
 }
+
+.container {
+    background-color: #cdd6dd;
+    min-height: 75vh;
+}
+
 div.card {
     border: #0e0e52 solid 3px;
     border-radius: 20px;
@@ -17,7 +29,7 @@ div.card {
     text-align: center;
 }
 .project {
-    background-color: #78c0e0;
+    background-color: #cdd6dd;
     display: flex;
     justify-content: center;
     color: #0e0e52;
