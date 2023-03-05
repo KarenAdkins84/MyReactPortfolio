@@ -1,8 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 .bio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
@@ -25,10 +21,13 @@
 }
 .profile-photo {
     display:flex;
+    width: 30%;
     margin-top: 20px;
     margin-left: 20px;
-    max-width: 30%;
-    max-height: 30%;
+}
+
+.info {
+    width: 70%;
 }
 
 @media screen and (max-width: 680px) {
