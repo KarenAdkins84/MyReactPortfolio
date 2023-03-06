@@ -19,41 +19,41 @@ const TechSkills = () => {
     return (
     <div className='main'>
         <div className='techSkills'>
-            <div className='mernStack'>
+            <div>
                 <ul className='skills'>
-                    <li>MongoDB<SiMongodb/></li>
+                    <li><SiMongodb/>MongoDB</li>
                     <li>Express</li>
-                    <li>React<SiReact/></li>
-                    <li>Node<SiNodedotjs/></li>
+                    <li><SiReact/>React</li>
+                    <li><SiNodedotjs/>Node</li>
                 </ul>
             </div>
             <div>
                 <ul className='skills'>
-                    <li>MySQL<SiMysql/></li>
+                    <li><SiMysql/>MySQL</li>
                     <li>NoSQL</li>
-                    <li>Sequelize<SiSequelize/></li>
+                    <li><SiSequelize/>Sequelize</li>
                     <li>Mongoose</li>
                 </ul>
             </div>
             <div>
                 <ul className='skills'>
                     <li>Apollo Client Server</li>
-                    <li>GraphQL<SiApollographql/></li>
-                    <li>RESTful API's</li>
-                    <li>Progressive Web Apps<SiPwa/></li>
+                    <li><SiApollographql/>GraphQL</li>
+                    <li>REST API's</li>
+                    <li><SiPwa/>Progressive Web Apps</li>
                 </ul>
             </div>
             <div >
                 <ul className='skills'>
-                    <li>HTML<SiHtml5/></li>
-                    <li>CSS<SiCss3/></li>
-                    <li>GIT<SiGithub/></li>
-                    <li>Javascript<SiJavascript/></li>
+                    <li><SiHtml5/>HTML</li>
+                    <li><SiCss3/>CSS</li>
+                    <li><SiGithub/>GIT</li>
+                    <li><SiJavascript/>Javascript</li>
                 </ul>
             </div>
             <div>
                 <ul className='skills'>
-                    <li>Insomnia Core<SiInsomnia/></li>
+                    <li><SiInsomnia/>Insomnia Core</li>
                     <li>GraphQL Sandbox</li>
                     <li>MongoDB Compass</li>
                     <li>MongoDB Atlas</li>

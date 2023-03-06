@@ -1,6 +1,6 @@
 .main {
     background-color: #cdd6dd;
-    height: 75vh;
+    min-height: 75vh;
 }
 
 .techSkills {
@@ -27,4 +27,6 @@ ul {
     border: 4px solid #53599A;
     border-radius: 20px;
     font-size: 1.4rem;
+    margin: 10px;
+    padding: 10px;
 }

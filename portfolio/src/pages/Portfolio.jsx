@@ -3,7 +3,6 @@ import React from 'react';
 import ProjectCards from '../components/Project';
 import '../styles/Portfolio.css';
 import PWAImage from '../assets/images/PwaScreenshot.png';
-import Regifter from '../assets/images/regifter.png';
 import ChefRosetta from '../assets/images/chefRosetta.png';
 import AthleteTracker from '../assets/images/AthleteTracker.png';
 
@@ -21,11 +20,11 @@ const portfolio=[
 },
 {
     "id": 2,
-    "name": "ReGifter",
-    "image": Regifter,
-    "github": "https://github.com/KarenAdkins84/TheShop",
-    "deploy": "https://the-regifter.herokuapp.com/",
-    "topics": "Express, Node, MySQL, Sequelize, Heroku, collaborative coding"
+    "name": "PWA Text Editor",
+    "image": PWAImage,
+    "github": "https://github.com/KarenAdkins84/PwaTextEditor",
+    "deploy": "https://cryptic-plains-18429.herokuapp.com/",
+    "topics": "PWA, manifest.json, service-workers, webpack plugins"
 },
 {
     "id": 3,
@@ -35,14 +34,14 @@ const portfolio=[
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
     "topics": "JavaScript, collaborative coding, server-side fetch API calls, "
 },
-{
-    "id": 4,
-    "name": "PWA Text Editor",
-    "image": PWAImage,
-    "github": "https://github.com/KarenAdkins84/PwaTextEditor",
-    "deploy": "https://cryptic-plains-18429.herokuapp.com/",
-    "topics": "PWA, manifest.json, service-workers, webpack plugins"
-},
+// {
+//     "id": 4,
+//     "name": "PWA Text Editor",
+//     "image": PWAImage,
+//     "github": "https://github.com/KarenAdkins84/PwaTextEditor",
+//     "deploy": "https://cryptic-plains-18429.herokuapp.com/",
+//     "topics": "PWA, manifest.json, service-workers, webpack plugins"
+// },
 // {
 //     "id": 5,
 //     "name": "",
