@@ -23,6 +23,15 @@ const Home = () => {
         Please check out my projects featured in this portfolio to see examples of my solo and collaborative works!
 
         </p>
+        <h3>Recommendation</h3>
+        <p className='recommendation'>
+        Karen is a diligent person who is always willing to go above and beyond to get the job done. 
+        Her commitment and dedication to her work are evident in everything she does. She is a valuable asset 
+        to any team, and her positive attitude and eagerness to learn make her a pleasure to work with.
+        I highly recommend Karen for any opportunity she pursues. Her hardworking nature, quick learning ability, 
+        and proactive problem-solving approach will undoubtedly make her a valuable addition to any organization.
+        <br></br>--Saurav Khatiwada, Software Engineer, Vanderbilt Bootcamp Instructor
+        </p>
       </div>
     </div>
   )
