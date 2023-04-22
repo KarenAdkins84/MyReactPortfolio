@@ -5,6 +5,7 @@ import '../styles/Portfolio.css';
 import PWAImage from '../assets/images/PwaScreenshot.png';
 import ChefRosetta from '../assets/images/chefRosetta.png';
 import AthleteTracker from '../assets/images/AthleteTracker.png';
+import Blog from '../assets/images/Blog.png';
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -28,20 +29,20 @@ const portfolio=[
 },
 {
     "id": 3,
+    "name": "Blog About JavaScript",
+    "image": Blog,
+    "github": "https://github.com/KarenAdkins84/BlogStack",
+    "deploy": "",
+    "topics": "Full stack blog built with MongoDb, Express, Node, and EJS. Can create, edit, and delete posts and comments and upload photos."
+},
+{
+    "id": 4,
     "name": "ChefRosetta",
     "image": ChefRosetta,
     "github": "https://github.com/KarenAdkins84/Recipes-Translator",
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
     "topics": "JavaScript, collaborative coding, server-side fetch API calls, "
 },
-// {
-//     "id": 4,
-//     "name": "PWA Text Editor",
-//     "image": PWAImage,
-//     "github": "https://github.com/KarenAdkins84/PwaTextEditor",
-//     "deploy": "https://cryptic-plains-18429.herokuapp.com/",
-//     "topics": "PWA, manifest.json, service-workers, webpack plugins"
-// },
 // {
 //     "id": 5,
 //     "name": "",
