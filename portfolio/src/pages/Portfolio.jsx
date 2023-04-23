@@ -17,7 +17,7 @@ const portfolio=[
     "image": AthleteTracker,
     "github": "https://github.com/KarenAdkins84/Grand-Finale",
     "deploy": "https://athletetracker.herokuapp.com/",
-    "topics": "A Mobile-first Apollo GraphQL MERN stack application"
+    "topics": "A simple mobile-first Apollo GraphQL MERN stack client tracker for personal trainers"
 },
 {
     "id": 2,
@@ -25,7 +25,7 @@ const portfolio=[
     "image": PWAImage,
     "github": "https://github.com/KarenAdkins84/PwaTextEditor",
     "deploy": "https://cryptic-plains-18429.herokuapp.com/",
-    "topics": "PWA, manifest.json, service-workers, webpack plugins"
+    "topics": "A text editor that is installable and works offline! PWA, manifest.json, service-workers, webpack plugins"
 },
 {
     "id": 3,
@@ -41,7 +41,7 @@ const portfolio=[
     "image": ChefRosetta,
     "github": "https://github.com/KarenAdkins84/Recipes-Translator",
     "deploy": "https://ehamzapour.github.io/Recipes-Translator/",
-    "topics": "JavaScript, collaborative coding, server-side fetch API calls, "
+    "topics": "Search for recipes in English and get them translated to Spanish!JavaScript, collaborative coding, server-side fetch API calls, "
 },
 // {
 //     "id": 5,
