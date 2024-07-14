@@ -6,6 +6,7 @@ import PWAImage from '../assets/images/PwaScreenshot.png';
 import ChefRosetta from '../assets/images/chefRosetta.png';
 import AthleteTracker from '../assets/images/AthleteTracker.png';
 import Blog from '../assets/images/Blog.png';
+import Proshop from '../assets/images/Proshop.png'; 
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -29,11 +30,11 @@ const portfolio=[
 },
 {
     "id": 3,
-    "name": "Blog About JavaScript",
-    "image": Blog,
-    "github": "https://github.com/KarenAdkins84/BlogStack",
-    "deploy": "",
-    "topics": "Full stack blog built with MongoDb, Express, Node, and EJS. Can create, edit, and delete posts and comments and upload photos."
+    "name": "ProShop, a MERN stack e-commerce platform",
+    "image": Proshop,
+    "github": "https://github.com/KarenAdkins84/my-shop",
+    "deploy": "https://myproshop-m5hp.onrender.com",
+    "topics": "An e-commerce platform built with React and Redux, Node, Express, MongoDB. Full-featured shopping cart and secure checkout."
 },
 {
     "id": 4,
